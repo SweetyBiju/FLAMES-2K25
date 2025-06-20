@@ -1,0 +1,54 @@
+ 
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                background-image: url('bgmtime4.jpg'); /* Background image */
+                background-size: cover; /* Cover the entire viewport */
+                margin: 0;
+                padding: 0;
+                height: 100vh; /* Full viewport height for vertical centering */
+                display: flex; /* Use Flexbox to center content vertically */
+                justify-content: center; /* Center horizontally */
+                align-items: center;
+                
+            }
+
+           
+
+
+            .timetable-container {
+                width: 95%; /* Responsive width */
+                max-width: 1000px;
+                color:white;
+                margin: 0 auto; /* Centers the container and adds vertical spacing */
+                background-color: #d2691e;
+                padding: 25px;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Lifts it with a shadow */
+                text-align: center;
+            }
+
+            .timetable {
+                width: 100%;
+                margin: 20px auto 0;
+                background-color: #F5F1E9;
+            }
+
+            table {
+                width: 100%;
+                border-collapse: separate;
+            }
+
+            th, td {
+                padding: 10px;
+                text-align: center;
+                border: 1px solid #010101;
+                border-radius: 5px;
+            }
+
+            th {
+                background-color: #8e4585;
+                color: rgb(255, 255, 255);
+            }
+
+       
