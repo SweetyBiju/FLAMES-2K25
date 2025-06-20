@@ -1,0 +1,52 @@
+  body {
+                background-color: #880e4f;    
+                text-align: center;
+                padding: 50px;
+            }
+            .card {
+                background-color: #ffffff;
+                border-radius: 30px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                padding: 30px;
+                max-width: 400px;
+                margin: auto;
+                
+            }
+            h1 {
+                color: #000080;
+                font-family: "Caprasimo", serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+            p {
+                font-size: 18px;
+                color: #023e8a;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                text-align: left;
+            
+            }
+
+            .image {
+            width: 40%;
+            border-radius: 45%;
+            margin-bottom: 10px;
+            }            
+
+
+            .button-container{
+                display: flex;
+                justify-content: flex-end;
+            }
+
+
+            .click {
+                
+                display: inline-flex;
+                justify-content: center;
+                padding: 10px 20px;
+                background-color: #023e8a;
+                color: white;
+                text-decoration: none;
+                border-radius: 5px;
+                
+            }
